@@ -1,0 +1,27 @@
+name: t2d-gpu
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python=3.11
+  - pip
+  - numpy=1.26
+  - pandas=2.2
+  - scipy=1.11
+  - scikit-learn=1.6
+  - pillow=11
+  - matplotlib=3.9
+  - ipykernel=6
+  - tqdm
+  - pip:
+      - lifelines==0.30.0
+      - joblib==1.4.2
+      - --extra-index-url https://download.pytorch.org/whl/cu128
+      - torch==2.7.1+cu128
+      - torchvision==0.22.1+cu128
+      - monai==1.5.1
+      - torch-geometric==2.7.0
+      - tabpfn==2.2.1
+      - xgboost==2.1.4

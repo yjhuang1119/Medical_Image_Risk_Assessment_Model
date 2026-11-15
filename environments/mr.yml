@@ -1,0 +1,31 @@
+name: t2d-mr
+
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+
+dependencies:
+  - r-base=4.3
+  - r-irkernel
+  - r-remotes
+  - r-data.table
+  - r-readr
+  - r-dplyr
+  - r-ggplot2
+  - r-psych
+  - r-r.utils
+  - r-curl
+  - r-openssl
+  - plink2
+  - make
+  - pkg-config
+  - c-compiler
+  - cxx-compiler
+  - fortran-compiler
+  - r-fs
+  - r-sass
+  - r-bslib
+  - r-rmarkdown
+  - r-htmlwidgets
+  - r-plotly

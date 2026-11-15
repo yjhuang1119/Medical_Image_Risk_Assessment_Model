@@ -1,0 +1,35 @@
+PLINK v2.0.0-a.7.13 64-bit (15 Oct 2026)
+Options in effect:
+  --bfile [LOCAL_PATH]
+  --geno 0.05
+  --make-bed
+  --out [LOCAL_PATH]
+  --threads 4
+
+Hostname: dgx002
+Working directory: [LOCAL_PATH]
+Start time: Tue Nov  3 12:39:16 2026
+
+Random number seed: 1793680756
+1031817 MiB RAM detected, ~990364 available; reserving 515908 MiB for main
+workspace.
+Using up to 4 compute threads.
+100 samples (54 females, 46 males; 100 founders) loaded from
+[LOCAL_PATH]
+1000 variants loaded from
+[LOCAL_PATH]
+1 binary phenotype loaded (50 cases, 50 controls).
+Calculating allele frequencies... done.
+--geno: 0 variants removed due to missing genotype data.
+1000 variants remaining after main filters.
+Writing
+[LOCAL_PATH]
+... done.
+Writing
+[LOCAL_PATH]
+... done.
+Writing
+[LOCAL_PATH]
+... done.
+
+End time: Tue Nov  3 12:39:16 2026

@@ -1,0 +1,23 @@
+{
+  "Model": "XGBoost",
+  "XGBoost_version": "2.1.4",
+  "Training_split": "training2",
+  "Selection_split": "validation",
+  "Final_evaluation_split": "testing",
+  "Predictors": 4100,
+  "Objective": "binary:logistic",
+  "Max_depth": 6,
+  "Learning_rate": 0.3,
+  "Maximum_estimators": 100,
+  "Reg_alpha": 0.0,
+  "Reg_lambda": 1.0,
+  "Early_stopping_rounds": 30,
+  "Evaluation_metric": "auc",
+  "GPU_device": "cuda:0",
+  "Random_seed": 1,
+  "Best_iteration_zero_based": 4,
+  "Best_n_trees": 5,
+  "Best_validation_AUC": 0.796875,
+  "Training_seconds": 4.144424724858254,
+  "Validation_Youden_Threshold": 0.5720000000000001
+}

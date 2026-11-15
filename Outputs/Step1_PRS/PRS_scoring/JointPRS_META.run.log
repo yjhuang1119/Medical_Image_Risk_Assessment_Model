@@ -1,0 +1,25 @@
+PLINK v2.0.0-a.7.13 64-bit (15 Oct 2026)            cog-genomics.org/plink/2.0/
+(C) 2005-2026 Shaun Purcell, Christopher Chang    GNU General Public License v3
+Logging to [LOCAL_PATH]
+Options in effect:
+  --bfile [LOCAL_PATH]
+  --out [LOCAL_PATH]
+  --score [LOCAL_PATH] 2 4 6 cols=scoresums
+
+Start time: Mon Nov  2 21:00:55 2026
+1031817 MiB RAM detected, ~998353 available; reserving 515908 MiB for main
+workspace.
+Using up to 32 threads (change this with --threads).
+100 samples (54 females, 46 males; 100 founders) loaded from
+[LOCAL_PATH]
+1000 variants loaded from
+[LOCAL_PATH]
+1 binary phenotype loaded (50 cases, 50 controls).
+Calculating allele frequencies... 0%done.
+
+--score: 1000 variants processed.
+--score: Results written to
+[LOCAL_PATH]
+.
+End time: Mon Nov  2 21:00:55 2026
+

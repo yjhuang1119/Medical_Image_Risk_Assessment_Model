@@ -1,0 +1,14 @@
+name: t2d_jointprs
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python=3.8
+  - numpy=1.24
+  - scipy=1.10
+  - h5py=3.11
+  - cython=3.0
+  - setuptools
+  - pip

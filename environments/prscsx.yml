@@ -1,0 +1,12 @@
+name: t2d_prscsx
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python=3.11
+  - numpy=1.26
+  - scipy=1.11
+  - h5py=3.10
+  - pip

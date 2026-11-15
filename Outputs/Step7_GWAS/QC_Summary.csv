@@ -1,0 +1,6 @@
+Stage,N_Samples,N_Variants,Removed_Samples,Removed_Variants
+00_Raw,100,1000,0,0
+01_SampleMissingness,100,1000,0,0
+02_VariantMissingness,100,1000,0,0
+03_MAF,100,1000,0,0
+04_Final_QC,100,1000,0,0

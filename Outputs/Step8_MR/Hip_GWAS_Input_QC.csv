@@ -1,0 +1,10 @@
+Stage,Before,Excluded,Remaining
+PLINK2 ERRCODE not normal,4233180,0,4233180
+Missing or invalid SNP ID,4233180,0,4233180
+Invalid or non-ACGT alleles,4233180,310189,3922991
+Missing or nonfinite BETA,3922991,0,3922991
+Missing or nonfinite SE,3922991,0,3922991
+SE <= 0,3922991,0,3922991
+Missing or nonfinite P-value,3922991,0,3922991
+"P-value outside [0, 1]",3922991,0,3922991
+Duplicate SNP identifiers,3922991,0,3922991

@@ -1,11 +1,26 @@
+# ============================================================
+# Private and externally supplied data
+# ============================================================
+
+/local_data/
+/External_data/
+
+# ============================================================
+# Jupyter and Python temporary files
+# ============================================================
+
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
 __pycache__/
 *.pyc
-.venv/
-output/
-*.pth
-*.pkl
-*.tiff
-*.png
-.vscode/
-.DS_Store
-Thumbs.db
+
+# ============================================================
+# Public analysis outputs and trained models
+# ============================================================
+
+# Outputs/ is intentionally included.
+# model_weights/ is intentionally included.
+# Demo_data/ is intentionally included.
+
+# Pending privacy review: serialized study Cox model
+/model_weights/Study-trained_models/Cox/Cox_SCORESUM01_Model.joblib

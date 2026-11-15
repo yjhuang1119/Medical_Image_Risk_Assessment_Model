@@ -1,0 +1,14 @@
+{
+  "method": "MinMax",
+  "source_column": "SCORESUM",
+  "model_column": "SCORESUM_01",
+  "minimum": -0.48886124,
+  "maximum": 2.01405,
+  "range": 2.50291124,
+  "clip": false,
+  "fit_population": "Original Cox training cohort",
+  "training_n": 6542,
+  "training_events": 337,
+  "time_unit": "weeks",
+  "event_definition": "Follow-up Def4 Case (OR)"
+}

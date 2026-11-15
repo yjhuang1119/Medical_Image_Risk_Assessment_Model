@@ -1,0 +1,3 @@
+Direction,N_Clumped,N_Overlapping,N_Harmonized,N_After_Outcome_Filter,N_Final_IV,Status,Configured_Simulations,Minimum_Simulations_Global,Minimum_Simulations_Outlier,Global_Test_Feasible,Outlier_Resolution_Sufficient,Simulation_Status
+Hip_to_T2D,10,10,10,10,10,Ready for MR-PRESSO,1000,11,200,TRUE,TRUE,Global feasible; outlier resolution sufficient
+T2D_to_Hip,88,88,81,80,80,Ready for MR-PRESSO,1000,81,1600,TRUE,FALSE,Global feasible; outlier resolution insufficient

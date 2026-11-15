@@ -1,0 +1,13 @@
+Parameter,Value
+IV_P_Threshold,5e-08
+Clump_P1,5e-08
+Clump_P2,0.005
+Clump_R2,0.001
+Clump_KB,10000
+Outcome_P_Exclusion,5e-06
+Minimum_F_Statistic,10
+Harmonization_Action,2
+MRPRESSO_NbDistribution,1000
+Original_Study_NbDistribution,25000
+MRPRESSO_SignifThreshold,0.05
+Random_Seed,12345
